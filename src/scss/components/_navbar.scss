@@ -11,3 +11,40 @@
     font-size: $font-size-xs;
   }
 }
+
+.navbar-toggler {
+  border: none;
+  z-index: $zindex-tooltip;
+
+  > div {
+    height: 2px;
+    width: 1.2rem;
+    background-color: $secondary-red;
+  }
+
+  > div:first-of-type {
+    width: 1.5rem;
+  }
+
+  > div:last-of-type {
+    width: 0.9rem;
+  }
+}
+
+.navbar-toggler[aria-expanded="true"] {
+  border: none;
+
+  > div {
+    background-color: $extra-light;
+  }
+}
+
+.navbar-nav {
+  font-family: $font-family-span;
+  background: $primary;
+}
+
+.nav-link {
+  text-transform: lowercase;
+  letter-spacing: $letter-spacing-standard;
+}
