@@ -1,0 +1,79 @@
+$extra-light: #faf9f7;
+$light: #e7e4db;
+$primary: #b3a898;
+$secondary-red: #9d887a;
+$secondary-green: #8e8b7c;
+$dark: #5f6053;
+
+$color-contrast-dark: $dark;
+$color-contrast-light: $extra-light;
+
+$enable-rounded: false;
+
+$body-bg: $extra-light;
+$body-color: $dark;
+
+$link-color: $dark;
+$link-decoration: none;
+$link-shade-percentage: 0;
+$link-hover-color: $secondary-green;
+
+$font-family-base: 'adobe-caslon-pro';
+$font-family-headlines: 'ivypresto-display';
+$font-family-span: 'montserrat';
+
+$font-size-root: 16px;
+$font-size-base: 1rem;
+$font-size-2xs: $font-size-base * .625;
+$font-size-xs: $font-size-base * .75;
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.125;
+$font-size-xl: $font-size-base * 1.25;
+$font-size-2xl: $font-size-base * 1.875;
+$font-size-3xl: $font-size-base * 2.188;
+$font-size-4xl: $font-size-base * 3.125;
+$font-size-5xl: $font-size-base * 4.375;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer * .75,
+  4: $spacer,
+  5: $spacer * 1.25,
+  6: $spacer * 1.5,
+  10: $spacer * 2.5,
+  12: $spacer * 3,
+  15: $spacer * 3.75,
+  20: $spacer * 5,
+  25: $spacer * 6.25,
+  30: $spacer * 7.5,
+  40: $spacer * 10,
+  50: $spacer * 12.5,
+  60: $spacer * 15,
+  75: $spacer * 18.75,
+  98: $spacer * 24.5,
+);
+
+$line-height-sm: 1.2;
+
+$height-lines: 1.5px;
+
+$headings-margin-bottom: $spacer;
+$headings-font-family: $font-family-headlines;
+$headings-font-style: uppercase;
+$headings-font-weight: $font-weight-lighter;
+$headings-color: $secondary-green;
+$headings-line-height: $line-height-sm;
+
+$hr-color: $secondary-red;
+$hr-height: $height-lines;
+$hr-opacity: 1;
+
+$btn-padding-y: $spacer / 2;
+$btn-padding-x: $spacer;
+$btn-font-family: $font-family-base;
+$btn-line-height: 1.5;
+$btn-border-width: 1px;
+$btn-box-shadow: none;

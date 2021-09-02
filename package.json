@@ -10,10 +10,10 @@
   },
   "scripts": {
     "build": "npm run css",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o build/",
-    "css-lint": "stylelint scss/",
-    "css-prefix": "postcss --replace build/starter.css --use autoprefixer --map",
-    "css-purge": "purgecss --keyframes --css build/starter.css --content index.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output build/",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --precision 6 src/scss -o build/",
+    "css-lint": "stylelint src/scss/",
+    "css-prefix": "postcss --replace build/styles.css --use autoprefixer",
+    "css-purge": "purgecss --keyframes --css build/styles.css --content index.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output build/",
     "css": "npm-run-all css-compile css-purge css-prefix",
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
@@ -22,8 +22,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.9.3",
-    "bootstrap": "^5.1.0",
-    "bootstrap-icons": "^1.5.0"
+    "bootstrap": "^5.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.3",
