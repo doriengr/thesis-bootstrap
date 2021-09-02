@@ -18,13 +18,15 @@
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
-    "test": "npm run css-lint && npm run css"
+    "test": "npm run css-lint && npm run css",
+    "js-compress": "minify src/js/* > build/site.js"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.1.0"
   },
   "devDependencies": {
+    "minify": "^7.0.2",
     "autoprefixer": "^10.3.3",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12",

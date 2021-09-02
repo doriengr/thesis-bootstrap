@@ -1,0 +1,13 @@
+.navbar-brand p {
+  font-family: $font-family-span;
+  letter-spacing: $letter-spacing-wide;
+  text-transform: uppercase;
+  color: $secondary-green;
+  font-weight: 500;
+  font-size: $font-size-2xs;
+  margin-bottom: 0;
+
+  @media (min-width: 992px) {
+    font-size: $font-size-xs;
+  }
+}

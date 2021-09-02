@@ -56,14 +56,17 @@ $spacers: (
   98: $spacer * 24.5,
 );
 
+$height-lines: 1.5px;
+
 $line-height-sm: 1.2;
 
-$height-lines: 1.5px;
+$letter-spacing-wide: 0.15em;
+$letter-spacing-standard: 0.12em;
+$letter-spacing-tight: 0.05em;
 
 $headings-margin-bottom: $spacer;
 $headings-font-family: $font-family-headlines;
 $headings-font-style: uppercase;
-$headings-font-weight: $font-weight-lighter;
 $headings-color: $secondary-green;
 $headings-line-height: $line-height-sm;
 
