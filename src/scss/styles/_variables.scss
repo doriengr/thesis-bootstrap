@@ -5,6 +5,15 @@ $secondary-red: #9d887a;
 $secondary-green: #8e8b7c;
 $dark: #5f6053;
 
+$theme-colors: (
+  "primary": $primary,
+  "secondary-red": $secondary-red,
+  "secondary-green": $secondary-green,
+  "light": $light,
+  "extra-light": $extra-light,
+  "dark": $dark
+);
+
 $color-contrast-dark: $dark;
 $color-contrast-light: $extra-light;
 

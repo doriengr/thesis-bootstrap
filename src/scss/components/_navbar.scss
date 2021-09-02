@@ -1,11 +1,8 @@
 .navbar-brand p {
   font-family: $font-family-span;
   letter-spacing: $letter-spacing-wide;
-  text-transform: uppercase;
-  color: $secondary-green;
   font-weight: 500;
   font-size: $font-size-2xs;
-  margin-bottom: 0;
 
   @media (min-width: 992px) {
     font-size: $font-size-xs;
@@ -13,7 +10,6 @@
 }
 
 .navbar-toggler {
-  border: none;
   z-index: $zindex-tooltip;
 
   > div {
@@ -32,19 +28,29 @@
 }
 
 .navbar-toggler[aria-expanded="true"] {
-  border: none;
 
   > div {
     background-color: $extra-light;
   }
 }
 
+.navbar-collapse {
+  @media (min-width: 992px) {
+    height: 100% !important;
+  }
+}
+
 .navbar-nav {
   font-family: $font-family-span;
-  background: $primary;
+
+  @media (min-width: 992px) {
+    background-color: rgba($extra-light, 0.75) !important;
+  }
 }
 
 .nav-link {
-  text-transform: lowercase;
-  letter-spacing: $letter-spacing-standard;
+  @media (min-width: 992px) {
+    color: $secondary-green !important;
+    font-size: $font-size-2xs;
+  }
 }
