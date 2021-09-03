@@ -1,0 +1,21 @@
+.btn {
+  grid-column: 2/8;
+  max-width: max-content;
+
+  @media (min-width: $grid-breakpoints-lg) {
+    grid-column: 2/5;
+  }
+}
+
+.btn-extra-light {
+  background-color: transparent;
+  border-color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    
+    > p {
+      color: $extra-light !important;
+    }
+  }
+}

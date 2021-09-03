@@ -5,8 +5,11 @@
 
 @import "bootstrap/scss/bootstrap";
 
-@import "./components/containers",
+@import "./components/blockquote",
+  "./components/button",
+  "./components/containers",
   "./components/hero",
   "./components/history",
   "./components/navbar",
-  "./components/origin";
+  "./components/origin",
+  "./components/philosophy";

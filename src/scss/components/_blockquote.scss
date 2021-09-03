@@ -1,0 +1,25 @@
+.blockquote {
+  font-family: $font-family-headlines;
+  grid-column: 2/8;
+
+  @media (min-width: $grid-breakpoints-lg) {
+    grid-column: 2/7;
+  }
+
+  > p {
+    font-family: $font-family-headlines;
+    font-weight: $headings-font-weight;
+
+    @media (min-width: $grid-breakpoints-lg) {
+      font-size: $font-size-xl;
+    }
+  }
+}
+
+.blockquote-footer {
+  @media (min-width: $grid-breakpoints-lg) {
+    font-family: $font-family-span;
+    max-width: 30rem;
+    white-space: nowrap;
+  }
+}
