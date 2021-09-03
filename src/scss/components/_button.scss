@@ -1,6 +1,7 @@
 .btn {
   grid-column: 2/8;
   max-width: max-content;
+  max-height: max-content;
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 2/5;

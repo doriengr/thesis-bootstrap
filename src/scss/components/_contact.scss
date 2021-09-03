@@ -1,0 +1,11 @@
+.contact-image {
+  height: 10rem;
+
+  @media (min-width: $grid-breakpoints-sm) {
+    height: 15rem;
+  }
+  
+  @media (min-width: $grid-breakpoints-xl) {
+    height: 24rem;
+  }
+}

@@ -1,5 +1,4 @@
 .blockquote {
-  font-family: $font-family-headlines;
   grid-column: 2/8;
 
   @media (min-width: $grid-breakpoints-lg) {
@@ -16,10 +15,21 @@
   }
 }
 
-.blockquote-footer {
+.blockquote-large > p {
+  font-size: $font-size-2xl;
+  max-width: 45rem;
+
   @media (min-width: $grid-breakpoints-lg) {
-    font-family: $font-family-span;
-    max-width: 30rem;
-    white-space: nowrap;
+    font-size: $font-size-4xl;
   }
+}
+
+.blockquote-footer {
+  font-family: $font-family-span;
+  max-width: 30rem;
+  white-space: nowrap;
+}
+
+.blockquote-footer-small {
+  font-size: $font-size-base;
 }
