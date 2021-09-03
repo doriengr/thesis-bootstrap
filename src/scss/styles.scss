@@ -1,9 +1,10 @@
 // Customize styles
-@import "./styles/fonts";
-@import "./styles/variables";
-@import "./styles/general";
+@import "./styles/fonts",
+  "./styles/variables",
+  "./styles/general";
 
 @import "bootstrap/scss/bootstrap";
 
-@import "./components/containers";
-@import "./components/navbar";
+@import "./components/containers",
+  "./components/hero",
+  "./components/navbar";
