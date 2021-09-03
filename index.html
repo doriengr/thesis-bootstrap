@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="de">
+<!doctype htms>
+<htms lang="de">
   <head>
     <!-- Thesis · Dorien Grönwald -->
     <!-- Umsetzung mit dem Komponenten basierten CSS-Framework Bootstrap -->
@@ -20,7 +20,7 @@
     
     <title>Flavour Earth · Veganes Café im Herzen Flensburgs</title>
 
-    <link rel="icon" type="image/svg+xml" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xms" href="favicon.ico" sizes="any">
 
     <link rel="stylesheet" href="/build/styles.css">
   </head>
@@ -151,12 +151,13 @@
       </div>
     </nav>
     <main>
+      <!-- hero -->
       <header id="hero" class="hero grid my-20 my-md-40 mb-lg-0">
         <h1 class="hero-headline align-self-center align-self-sm-start pt-md-6 text-uppercase">Veganes Café im Herzen Flensburgs</h1>
-        <span class="hero-date text-secondary-red align-self-start mb-lg-6 ml-lg-30 text-uppercase">Est. 2012</span>
-        <p class="hero-description mt-20 mb-sm-6 ml-sm-30 mt-sm-0">Entdecke unser vielfältiges Angebot an vegane Backwaren und erlebe Geschmacks&shy;explosionen 
+        <span class="hero-date text-secondary-red align-self-start mb-lg-6 ms-lg-30 text-uppercase">Est. 2012</span>
+        <p class="hero-description mt-20 mb-sm-6 ms-sm-30 mt-sm-0">Entdecke unser vielfältiges Angebot an vegane Backwaren und erlebe Geschmacks&shy;explosionen 
           aus reinen tierfreien, regionalen Zutaten.</p>
-        <p class="hero-usp d-none d-lg-block align-self-end mr-6">Handarbeit, einzigartige Qualität und erstklassiger Geschmack!</p>
+        <p class="hero-usp d-none d-lg-block align-self-end me-6">Handarbeit, einzigartige Qualität und erstklassiger Geschmack!</p>
         <picture class="hero-image-large w-100 h-100">
           <source sizes="83px" media="(max-width: 400px)" srcset="src/images/flavour-earth-cafe-w-83.jpg 83w">
           <source sizes="324px" media="(max-width: 700px)" srcset="src/images/flavour-earth-cafe-w-324.jpg 324w">
@@ -174,7 +175,30 @@
           <img src="src/images/falvour-earth-roll-seletction-w-250.jpg" alt="Flavour Earth · Unsere Auswahl an Leckereien" class="w-100 h-75">
         </picture>
       </header>
+      <!-- origin -->
+      <section class="origin grid mb-20 mb-md-25 mb-lg-30 mb-xxl-40">
+        <div class="origin-description align-self-lg-center">
+          <h2 class="text-secondary-red text-uppercase">Inspiriert von der Region!</h2>
+          <p>All unsere Produkte werden aus tierfreien und regionalen Produkten hergestellt. Dabei achten wir nicht nur auf kurze Transportwege,
+             sondern auch auf faire Arbeitsbedingungen und Qualität. Somit garantieren wir für unseren einzigartigen Geschmack und Fairness für alle!</p>
+        </div>
+        <picture class="origin-image w-100 mb-6 mb-lg-0">
+          <source sizes="472px" media="(max-width: 500px)" srcset="src/images/flavour-earth-corn-w-472.jpg 472w">
+          <source sizes="615px"  media="(max-width: 700px)" srcset="src/images/flavour-earth-corn-w-615.jpg 615w">
+          <source sizes="753px" media="(max-width: 1024px)" srcset="src/images/flavour-earth-corn-w-753.jpg 753w">
+          <source sizes="472px" media="(min-width: 1024px)" srcset="src/images/flavour-earth-corn-w-472.jpg 472w">
+          <img class="w-100 h-100" src="src/images/flavour-earth-corn-w-472.jpg" alt="Flavour Earth · Regionales Getreide">
+        </picture>
+      </section>
     </main>
+    <!-- clip-path -->
+    <svg width="0" height="0" class="clippath">
+      <defs>
+          <clipPath id="clip-path-full" clipPathUnits="objectBoundingBox">
+            <path d="M0,0v0.5C0,0.8,0.2,1,0.5,1c0.3,0,0.5-0.2,0.5-0.5V0H0z"></path>
+          </clipPath>
+      </defs>
+    </svg>
     <!-- script -->
     <script type="module" src="/build/site.js"></script>
   </body>

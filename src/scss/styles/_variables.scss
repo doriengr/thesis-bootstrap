@@ -73,11 +73,11 @@ $letter-spacing-wide: 0.15em;
 $letter-spacing-standard: 0.12em;
 $letter-spacing-tight: 0.05em;
 
-$headings-margin-bottom: $spacer;
+$headings-margin-bottom: $spacer * 1.5;
 $headings-font-family: $font-family-headlines;
-$headings-font-style: uppercase;
 $headings-color: $secondary-green;
 $headings-line-height: $line-height-sm;
+$headings-font-weight: 100;
 
 $hr-color: $secondary-red;
 $hr-height: $height-lines;
