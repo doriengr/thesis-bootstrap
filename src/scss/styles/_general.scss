@@ -34,7 +34,7 @@ h3 {
   }
 }
 
-.grid {
+.grid-individual {
   @supports (display: grid) {
     display: grid;
     grid-template-columns: 6% 20% 6% 18% 6% 32% 6% 6%;
