@@ -1,11 +1,10 @@
 .navbar {
   @media (min-width: 992px) {
-    background-color: rgba($extra-light, 0.75) !important;
 
     > .container-fluid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      border-bottom: $height-lines solid $secondary-red;
+      // border-bottom: $height-lines solid $secondary-red;
     }
   }
 }
