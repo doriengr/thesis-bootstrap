@@ -22,7 +22,6 @@
     "js-compress": "minify src/js/* > build/site.js"
   },
   "dependencies": {
-    "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.1.0",
     "node-sass": "^6.0.1",
     "purgecss": "^4.0.3",
