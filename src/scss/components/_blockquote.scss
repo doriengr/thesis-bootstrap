@@ -16,8 +16,8 @@
 }
 
 .blockquote-large > p {
-  font-size: $font-size-2xl;
   max-width: 45rem;
+  font-size: $font-size-2xl;
 
   @media (min-width: $grid-breakpoints-lg) {
     font-size: $font-size-4xl;
@@ -25,8 +25,8 @@
 }
 
 .blockquote-footer {
-  font-family: $font-family-span;
   max-width: 30rem;
+  font-family: $font-family-span;
   white-space: nowrap;
 }
 

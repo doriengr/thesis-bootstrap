@@ -1,7 +1,7 @@
 .hero-headline {
+  max-width: 28rem;
   font-weight: $font-weight-normal;
   grid-column: 4/8;
-  max-width: 28rem;
 
   @media (min-width: $grid-breakpoints-sm) {
     grid-row: 2/3;
@@ -14,9 +14,9 @@
   }
 
   @media (min-width: $grid-breakpoints-lg) {
+    max-width: 40rem;
     font-size: $font-size-5xl;
     grid-column: 4/7;
-    max-width: 40rem;
   }
 }
 
@@ -26,8 +26,8 @@
   grid-column: 7/8;
   grid-row: 2/3;
   justify-self: end;
-  transform: rotate(180deg);
   white-space: nowrap;
+  transform: rotate(180deg);
   writing-mode: vertical-rl;
 
   @media (min-width: $grid-breakpoints-sm) {

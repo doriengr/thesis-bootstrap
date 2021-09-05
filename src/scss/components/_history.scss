@@ -29,8 +29,8 @@
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 3/5;
     grid-row: 3/4;
-    max-height: 18rem;
     height: 100% !important;
+    max-height: 18rem;
   }
 
   @media (min-width: $grid-breakpoints-xl) {

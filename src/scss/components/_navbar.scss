@@ -1,7 +1,7 @@
 .navbar {
   > div {
-    margin-left: 6%;
     margin-right: 6%;
+    margin-left: 6%;
   }
   ul {
     @media (min-width: $grid-breakpoints-lg) {
@@ -16,10 +16,10 @@
 
   > p {
     font-family: $font-family-span;
-    letter-spacing: $letter-spacing-wide;
-    font-weight: 500;
     font-size: $font-size-2xs;
-  
+    font-weight: 500;
+    letter-spacing: $letter-spacing-wide;
+
     @media (min-width: $grid-breakpoints-lg) {
       font-size: $font-size-xs;
     }
@@ -36,8 +36,8 @@
   z-index: $zindex-tooltip;
 
   > div {
-    height: 2px;
     width: 1.2rem;
+    height: 2px;
     background-color: $secondary-red;
   }
 
@@ -59,9 +59,9 @@
 
 .navbar-collapse {
   @media (min-width: $grid-breakpoints-lg) {
-    height: 100% !important;
-    width: auto !important;
     position: static !important;
+    width: auto !important;
+    height: 100% !important;
     grid-row: 1/2;
   }
 }
@@ -70,15 +70,15 @@
   font-family: $font-family-span;
 
   @media (min-width: $grid-breakpoints-lg) {
-    background-color: transparent !important;
     width: auto !important;
     height: auto !important;
+    background-color: transparent !important;
   }
 }
 
 .nav-link {
   @media (min-width: $grid-breakpoints-lg) {
-    color: $secondary-green !important;
     font-size: $font-size-2xs;
+    color: $secondary-green !important;
   }
 }
