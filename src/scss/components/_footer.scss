@@ -1,4 +1,8 @@
 .footer {
+  @media (min-width: $grid-breakpoints-lg) {
+    width: 85%;
+  }
+
   > div {
     padding-right: 6%;
     padding-left: 6%;
@@ -7,6 +11,17 @@
   .js-link {
     font-family: $font-family-span;
     font-size: $font-size-xs;
+  }
+  nav {
+    @media (min-width: $grid-breakpoints-sm) {
+      text-align: center !important;
+      max-width: 30rem;
+    }
+
+    @media (min-width: $grid-breakpoints-lg) {
+      text-align: center !important;
+      max-width: none;
+    }
   }
 }
 
