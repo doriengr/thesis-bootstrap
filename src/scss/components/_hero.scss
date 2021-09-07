@@ -1,3 +1,36 @@
+.hero {
+  &::after {
+    background-color: $light;
+    content: '';
+    grid-column: 1/5;
+    grid-row: 1/2;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    width: 70%;
+    z-index: -1;
+  }
+
+  @media (min-width: $grid-breakpoints-sm) {
+    &::after {
+      grid-row: 1/4;
+      top: 15%;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    &::after {
+      top: 20%;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-xl) {
+    &::after {
+      top: 30%;
+    }
+  }
+}
+
 .hero-headline {
   max-width: 28rem;
   font-weight: $font-weight-normal;

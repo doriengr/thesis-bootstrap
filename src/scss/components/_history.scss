@@ -1,3 +1,40 @@
+.history {
+  &::after {
+    background-color: $light;
+    content: '';
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  @media (min-width: $grid-breakpoints-md) {
+    &::after {
+      height: 75%;
+      top: 15%;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    &::after {
+      grid-column: 1/4;
+      grid-row: 2/4;
+      height: 55%;
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-xl) {
+    &::after {
+      grid-column: 1/5;
+      height: 65%;
+      width: 80%;
+    }
+  }
+}
+
 .history-headline {
   grid-column: 2/8;
 }

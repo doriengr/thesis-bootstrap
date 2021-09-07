@@ -1,5 +1,20 @@
 .origin {
   max-height: 38rem;
+
+  &::after {
+    background-color: $light;
+    content: '';
+    grid-column: 7/9;
+    grid-row: 1/2;
+    height: 50%;
+    width: 100%;
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    &::after {
+      height: 40%;
+    }
+  }
 }
 
 .origin-description {
