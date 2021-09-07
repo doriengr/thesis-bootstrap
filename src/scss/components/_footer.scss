@@ -2,31 +2,32 @@
   &::before {
     background-image: url('/src/images/icon-corn-green.svg');
     background-repeat: repeat-x;
-    background-size: $spacing-25;
+    background-size: 1.5rem;
     content: '';
     height: 100%;
     opacity: 40%;
     position: absolute;
     top: -2rem;
     width: 100%;
-    z-index: $z-index-lowest;
+    z-index: -1;
   }
   
   @media (min-width: $grid-breakpoints-lg) {
-    width: 85%;
-
     &::before {
       background-repeat: repeat;
-      max-width: $max-width-880;
-      right: $spacing-0;
-      top: $spacing-0;
-      width: 95%;
+      right: 0;
+      top: 0;
+      width: 65%;
     }
   }
 
   > div {
     padding-right: 6%;
     padding-left: 6%;
+
+    @media (min-width: $grid-breakpoints-lg) {
+      width: 85%;
+    }
   }
 
   .js-link {
