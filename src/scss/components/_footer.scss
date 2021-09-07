@@ -1,6 +1,27 @@
 .footer {
+  &::before {
+    background-image: url('/src/images/icon-corn-green.svg');
+    background-repeat: repeat-x;
+    background-size: $spacing-25;
+    content: '';
+    height: 100%;
+    opacity: 40%;
+    position: absolute;
+    top: -2rem;
+    width: 100%;
+    z-index: $z-index-lowest;
+  }
+  
   @media (min-width: $grid-breakpoints-lg) {
     width: 85%;
+
+    &::before {
+      background-repeat: repeat;
+      max-width: $max-width-880;
+      right: $spacing-0;
+      top: $spacing-0;
+      width: 95%;
+    }
   }
 
   > div {
