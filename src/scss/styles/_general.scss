@@ -4,6 +4,7 @@ html {
 
 ul {
   list-style-type: none;
+  padding-left: 0 !important;
 }
 
 img {
@@ -32,6 +33,11 @@ h3 {
   @media (min-width: $grid-breakpoints-lg) {
     font-size: $font-size-4xl !important;
   }
+}
+
+h4 {
+  font-family: $font-family-span !important;
+  font-size: $font-size-sm !important;
 }
 
 .grid-individual {

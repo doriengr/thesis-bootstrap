@@ -1,0 +1,26 @@
+.products {
+  padding: 0 6%;
+
+  picture {
+    max-height: 15rem;
+
+    @media (min-width: $grid-breakpoints-sm) {
+      max-height: 24rem;
+    }
+
+    @media (min-width: $grid-breakpoints-xl) {
+      max-height: 28rem;
+    }
+  }
+
+  .border {
+    @media (min-width: $grid-breakpoints-lg) {
+      border: none !important;
+    }
+  }
+}
+
+.products-section-headline {
+  font-size: $font-size-2xl !important;
+  grid-row: 2/3;
+}
