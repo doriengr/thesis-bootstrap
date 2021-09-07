@@ -1,0 +1,21 @@
+.footer {
+  > div {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  .js-link {
+    font-family: $font-family-span;
+    font-size: $font-size-xs;
+  }
+}
+
+.footer-logo {
+  > svg {
+    width: 7.5rem;
+  }
+}
+
+.footer-description {
+  font-size: $font-size-sm;
+}
