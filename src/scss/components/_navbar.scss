@@ -54,6 +54,7 @@
     width: $spacer * 1.2;
     height: 2px;
     background-color: $secondary-red;
+    transition: all 300ms ease-in-out;
   }
 
   > div:first-of-type {
@@ -68,7 +69,22 @@
 .navbar-toggler[aria-expanded="true"] {
 
   > div {
+    position: absolute;
+    left: $spacer * -0.8;
     background-color: $extra-light;
+  }
+
+  > div:first-of-type {
+    transform: rotate(45deg);
+  }
+
+  > div:nth-of-type(2) {
+    width: 0;
+  }
+
+  > div:last-of-type {
+    width: $spacer * 1.5;
+    transform: rotate(-45deg);
   }
 }
 
