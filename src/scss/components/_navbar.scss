@@ -1,7 +1,7 @@
 .navbar {
   > div {
-    margin: 0 6%;
-    
+    margin: 0 $spacing-outside;
+
     @media (min-width: $grid-breakpoints-xxl) {
       margin: 0;
     }
@@ -39,17 +39,17 @@
   z-index: $zindex-tooltip;
 
   > div {
-    width: 1.2rem;
+    width: $spacer * 1.2;
     height: 2px;
     background-color: $secondary-red;
   }
 
   > div:first-of-type {
-    width: 1.5rem;
+    width: $spacer * 1.5;
   }
 
   > div:last-of-type {
-    width: 0.9rem;
+    width: $spacer * 0.9;
   }
 }
 

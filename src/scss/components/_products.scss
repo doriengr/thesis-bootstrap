@@ -1,29 +1,29 @@
 .products {
-  padding: 0 6%;
+  padding: 0 $spacing-outside;
 
   @media (min-width: $grid-breakpoints-lg) {
     &::after {
-      background-color: $light;
-      content: '';
-      height: 20%;
       position: absolute;
+      top: 11%;
       right: 0;
       left: 0;
-      top: 11%;
+      z-index: $z-index-low;
       width: 100%;
-      z-index: -1;
+      height: 20%;
+      content: "";
+      background-color: $light;
     }
   }
 
   picture {
-    max-height: 15rem;
+    max-height: $spacer * 15;
 
     @media (min-width: $grid-breakpoints-sm) {
-      max-height: 24rem;
+      max-height: $spacer * 24;
     }
 
     @media (min-width: $grid-breakpoints-xl) {
-      max-height: 28rem;
+      max-height: $spacer * 28;
     }
   }
 
@@ -43,44 +43,44 @@
 .products-second-image {
   @media (min-width: $grid-breakpoints-lg) {
     > img {
-      clip-path: url('#clip-path-full');
+      clip-path: url("#clip-path-full");
     }
 
     &::before {
-      background-color: $secondary-red;
-      content: '';
-      height: $height-lines;
-      left: 0;
       position: absolute;
-      right: 0;
       top: 0;
+      right: 0;
+      left: 0;
       width: 100%;
+      height: $height-lines;
+      content: "";
+      background-color: $secondary-red;
     }
   }
 }
 
 .products-list-label {
   &::after {
-    background-image: url('/src/images/arrow-down.svg');
-    background-repeat: no-repeat;
-    content: '';
-    height: $spacer * 0.625;
     position: absolute;
-    right: 0;
     top: 40%;
-    transform: rotate(180deg);
+    right: 0;
     width: $spacer * 1.25;
+    height: $spacer * 0.625;
+    content: "";
+    background-image: url("/src/images/arrow-down.svg");
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
   }
 
   @media (min-width: $grid-breakpoints-lg) {
     &::after {
-      background-image: none;
-      border-bottom: $height-lines solid $secondary-red;
+      position: inherit;
+      width: 100%;
       height: auto;
       margin-left: 1em;
-      position: inherit;
+      background-image: none;
+      border-bottom: $height-lines solid $secondary-red;
       transform: none;
-      width: 100%;
     }
   }
 }

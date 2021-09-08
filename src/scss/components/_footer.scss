@@ -1,29 +1,29 @@
 .footer {
   &::before {
-    background-image: url('/src/images/icon-corn-green.svg');
-    background-repeat: repeat-x;
-    background-size: 1.5rem;
-    content: '';
-    height: 100%;
-    opacity: 40%;
     position: absolute;
     top: -2rem;
+    z-index: $z-index-low;
     width: 100%;
-    z-index: -1;
+    height: 100%;
+    content: "";
+    background-image: url("/src/images/icon-corn-green.svg");
+    background-repeat: repeat-x;
+    background-size: $spacer * 1.5;
+    opacity: 40%;
   }
-  
+
   @media (min-width: $grid-breakpoints-lg) {
     &::before {
-      background-repeat: repeat;
-      right: 0;
       top: 0;
+      right: 0;
       width: 65%;
+      background-repeat: repeat;
     }
   }
 
   > div {
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: $spacing-outside;
+    padding-left: $spacing-outside;
 
     @media (min-width: $grid-breakpoints-lg) {
       width: 85%;
@@ -36,20 +36,20 @@
   }
   nav {
     @media (min-width: $grid-breakpoints-sm) {
+      max-width: $spacer * 30;
       text-align: center !important;
-      max-width: 30rem;
     }
 
     @media (min-width: $grid-breakpoints-lg) {
-      text-align: center !important;
       max-width: none;
+      text-align: center !important;
     }
   }
 }
 
 .footer-logo {
   > svg {
-    width: 7.5rem;
+    width: $spacer * 7.5;
   }
 }
 

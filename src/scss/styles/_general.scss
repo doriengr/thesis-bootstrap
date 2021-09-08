@@ -3,8 +3,8 @@ html {
 }
 
 ul {
-  list-style-type: none;
   padding-left: 0 !important;
+  list-style-type: none;
 }
 
 img {
@@ -43,7 +43,7 @@ h4 {
 .grid-individual {
   @supports (display: grid) {
     display: grid;
-    grid-template-columns: 6% 20% 6% 18% 6% 32% 6% 6%;
+    grid-template-columns: $spacing-outside 20% $spacing-outside 18% $spacing-outside 32% $spacing-outside $spacing-outside;
     grid-template-rows: auto;
   }
 }

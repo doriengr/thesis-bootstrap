@@ -5,7 +5,7 @@
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 2/5;
-    max-height: 4rem;
+    max-height: $spacer * 4;
   }
 }
 

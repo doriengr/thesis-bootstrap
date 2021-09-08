@@ -1,14 +1,14 @@
 .hero {
   &::after {
-    background-color: $light;
-    content: '';
-    grid-column: 1/5;
-    grid-row: 1/2;
-    height: 100%;
     position: absolute;
     top: 30%;
-    width: 70%;
     z-index: $z-index-low;
+    width: 70%;
+    height: 100%;
+    content: "";
+    background-color: $light;
+    grid-column: 1/5;
+    grid-row: 1/2;
   }
 
   @media (min-width: $grid-breakpoints-sm) {
@@ -79,12 +79,12 @@
   grid-column: 2/8;
 
   &::before {
-    background-color: $primary;
-    content: '';
-    height: $height-lines;
     position: absolute;
     top: $spacer * -1.5;
     width: $spacer * 6.25;
+    height: $height-lines;
+    content: "";
+    background-color: $primary;
   }
 
   @media (min-width: $grid-breakpoints-sm) {
@@ -93,8 +93,8 @@
     width: 70%;
 
     &::before {
-      left: $spacer * -7.5;
       top: $spacer * 0.25;
+      left: $spacer * -7.5;
     }
   }
 }
@@ -103,14 +103,14 @@
   grid-column: 2/3;
 
   &::before {
-    background-color: $primary;
-    content: '';
-    height: $height-lines;
-    left: 0;
     position: absolute;
-    right: 0;
     top: $spacer * -1.5;
+    right: 0;
+    left: 0;
     width: 100%;
+    height: $height-lines;
+    content: "";
+    background-color: $primary;
   }
 }
 
