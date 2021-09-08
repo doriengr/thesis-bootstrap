@@ -2,6 +2,19 @@ html {
   letter-spacing: $letter-spacing-standard;
 }
 
+a,
+button,
+label {
+  &:focus {
+    color: $primary !important;
+    outline-color: $secondary-green !important;
+  }
+}
+
+::selection {
+  background-color: $light;
+}
+
 ul {
   padding-left: 0 !important;
   list-style-type: none;
@@ -38,6 +51,7 @@ h3 {
 h4 {
   font-family: $font-family-span !important;
   font-size: $font-size-sm !important;
+  margin-bottom: 0 !important;
 }
 
 .grid-individual {

@@ -84,3 +84,13 @@
     }
   }
 }
+
+.products-list-label--rotate {
+  &::after {
+    transform: rotate(0deg);
+  }
+}
+
+.js-products-sublist--hidden {
+  display: none;
+}

@@ -47,6 +47,8 @@
 
 .navbar-toggler {
   z-index: $zindex-tooltip;
+  justify-self: flex-end;
+  max-width: max-content;
 
   > div {
     width: $spacer * 1.2;

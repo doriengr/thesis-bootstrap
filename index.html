@@ -27,7 +27,7 @@
   <body class="lh-base bg-extra-light mx-auto container-xxl">
     <nav class="navbar navbar-expand-lg container-xxl fixed-top navbar-light bg-extra-light bg-opacity-75">
       <div class="w-100 justify-content-between py-4 border-bottom border-primary border-1 grid">
-        <a class="navbar-brand d-flex align-items-center flex-lg-column m-0 g-start-1 g-col-6 g-start-lg-6 g-col-lg-2" href="#hero" aria-label="Zum Anfang der Startseite" title="Zum Anfang der Startseite">
+        <a class="navbar-brand d-flex align-items-center flex-lg-column m-0 g-start-1 g-col-6 g-start-lg-6 g-col-lg-2 js-link" href="#hero" aria-label="Zum Anfang der Startseite" title="Zum Anfang der Startseite">
           <svg class="me-2 me-lg-0 mb-lg-5" width="20.86px" height="22px" viewBox="0 0 21.74 49">
             <defs>
               <style>.b{fill:none;stroke:#b3a898;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
@@ -55,7 +55,7 @@
         <div class="collapse navbar-collapse align-items-center position-absolute top-0 start-0 w-100 vh-100 align-items-lg-end justify-content-lg-end g-start-lg-1 g-col-lg-5" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 h-100 justify-content-center align-items-center bg-primary justify-content-lg-end">
             <li class="nav-item mx-auto d-lg-none">
-              <a class="navbar-logo nav-link mb-5" href="#hero" aria-label="Zum Anfang der Seite" title="Zum Anfrag der Seite">
+              <a class="navbar-logo nav-link mb-5 js-link" href="#hero" aria-label="Zum Anfang der Seite" title="Zum Anfrag der Seite">
                 <svg class="opacity-75" width="120px" height="55px" viewBox="0 0 112.55 51.92">
                   <defs>
                       <style>.a{fill:#faf9f7;}</style>
@@ -88,16 +88,16 @@
               </a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link text-lowercase pb-lg-0" href="#history" aria-label="Zur Geschichte" title="Zur Geschichte">Geschichte</a>
+              <a class="nav-link text-lowercase pb-lg-0 js-link" href="#history" aria-label="Zur Geschichte" title="Zur Geschichte">Geschichte</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link text-lowercase pb-lg-0" href="#products" aria-label="Zu den Produkten" title="Zu den Produkten">Produkte</a>
+              <a class="nav-link text-lowercase pb-lg-0 js-link" href="#products" aria-label="Zu den Produkten" title="Zu den Produkten">Produkte</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link text-lowercase pb-lg-0" href="#philosophy" aria-label="Zur Philosophie" title="Zur Philosophie">Philosophie</a>
+              <a class="nav-link text-lowercase pb-lg-0 js-link" href="#philosophy" aria-label="Zur Philosophie" title="Zur Philosophie">Philosophie</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link text-lowercase pb-lg-0" href="#contact" aria-label="Zum Kontakt" title="Zum Kontakt">Kontakt</a>
+              <a class="nav-link text-lowercase pb-lg-0 js-link" href="#contact" aria-label="Zum Kontakt" title="Zum Kontakt">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -237,9 +237,9 @@
               <img class="h-100 w-100" src="src/images/flavour-earth-products-bread-w-418.jpg" alt="Flavour Earth · Brot und Brötchen">
             </picture>
             <ul class="g-col-12">
-              <li class="border border-primary border-1 user-select-auto mb-4 p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto mb-4 p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Brot</h4>
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Bauenbrot</li>
                   <li class="mb-4">Dinkel-Vollkorn Brot</li>
                   <li class="mb-4">Dinkel-Sojajogurt Brot</li>
@@ -249,9 +249,9 @@
                   <li>Sauerteigbrot</li>
                 </ul>
               </li>
-              <li class="border border-primary border-1 user-select-auto p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Brötchen</h4>  
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Bauernbrötchen</li>
                   <li class="mb-4">Dinkel-Vollkorn Brötchen</li>
                   <li class="mb-4">Glutenfreie Brötchen</li>
@@ -275,9 +275,9 @@
               <img class="h-100 w-100" src="src/images/flavour-earth-products-cake-w-395.jpg" alt="Flavour Earth · Unsere süße Leckereien">
             </picture>
             <ul class="g-col-12">
-              <li class="border border-primary border-1 user-select-auto mb-4 p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto mb-4 p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Kuchen</h4>  
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Schokokuchen mit Blaubeeren</li>
                   <li class="mb-4">Mohnkuchen</li>
                   <li class="mb-4">Pflaumen-Hefekuchen</li>
@@ -285,9 +285,9 @@
                   <li>Zitronenkuchen</li>
                 </ul>
               </li>
-              <li class="border border-primary border-1 user-select-auto p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Gebäck & Muffins</h4>  
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Hefeknoten mit Zimt-Nuss</li>
                   <li class="mb-4">Franzbrötchen</li>
                   <li class="mb-4">Apfelstreuseltaler</li>
@@ -314,9 +314,9 @@
               <img class="h-100 w-100" src="src/images/flavour-earth-products-coffee-w-696.jpg" alt="Flavour Earth · Der beste Kaffee Flensburgs">
             </picture>
             <ul class="g-col-12">
-              <li class="border border-primary border-1 user-select-auto mb-4 p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto mb-4 p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Heißgetränke</h4>
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Espresso</li>
                   <li class="mb-4">Cappuccino</li>
                   <li class="mb-4">Latte Machiato</li>
@@ -326,17 +326,17 @@
                   <li>Tee</li>
                 </ul>
               </li>
-              <li class="border border-primary border-1 user-select-auto mb-4 p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto mb-4 p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Kaltgetränke</h4>  
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Karaffe Wasser</li>
                   <li class="mb-4">Ice Tea</li>
                   <li>Saft</li>
                 </ul>
               </li>
-              <li class="border border-primary border-1 user-select-auto p-4">
+              <li class="js-products-list-item border border-primary border-1 user-select-auto p-4">
                 <h4 class="products-list-label position-relative align-items-lg-center d-lg-flex flex-lg-row text-secondary-red text-uppercase">Smoothies</h4>  
-                <ul class="mt-5">
+                <ul class="js-products-sublist mt-5">
                   <li class="mb-4">Erdbeeren-Banane-Kiwi</li>
                   <li class="mb-4">Apfel-Drachenfrucht-Kokos</li>
                   <li>Rhabarber-Himbeere</li>
