@@ -1,3 +1,6 @@
+$enable-rounded: false;
+$enable-cssgrid: true;
+
 $extra-light: #faf9f7;
 $light: #e7e4db;
 $primary: #b3a898;
@@ -17,16 +20,13 @@ $theme-colors: (
 $color-contrast-dark: $dark;
 $color-contrast-light: $extra-light;
 
-$enable-rounded: false;
-$enable-cssgrid: true;
-
 $body-bg: $extra-light;
 $body-color: $dark;
 
-$link-color: $dark;
+$link-color: $secondary-green;
 $link-decoration: none;
 $link-shade-percentage: 0;
-$link-hover-color: $secondary-green;
+$link-hover-color: $dark;
 
 $font-family-base: "adobe-caslon-pro";
 $font-family-headlines: "ivypresto-display";
@@ -50,7 +50,6 @@ $spacers: (
   0: 0,
   1: $spacer / 4,
   2: $spacer / 2,
-  3: $spacer * .75,
   4: $spacer,
   5: $spacer * 1.25,
   6: $spacer * 1.5,
@@ -61,10 +60,6 @@ $spacers: (
   25: $spacer * 6.25,
   30: $spacer * 7.5,
   40: $spacer * 10,
-  50: $spacer * 12.5,
-  60: $spacer * 15,
-  75: $spacer * 18.75,
-  98: $spacer * 24.5,
 );
 
 $height-lines: 1.5px;
@@ -94,6 +89,7 @@ $btn-box-shadow: none;
 
 $navbar-light-color: $extra-light;
 $navbar-light-hover-color: $secondary-green;
+$navbar-padding-y: 0;
 
 $grid-breakpoints-xs: 0;
 $grid-breakpoints-sm: 576px;
@@ -102,7 +98,6 @@ $grid-breakpoints-lg: 992px;
 $grid-breakpoints-xl: 1200px;
 $grid-breakpoints-xxl: 1400px;
 
-$navbar-padding-y: 0;
 $container-padding-x: 0;
 
 $z-index-low: -1;
