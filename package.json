@@ -14,7 +14,7 @@
     "css-lint": "stylelint src/scss/",
     "css-prefix": "postcss --replace build/styles.css --use autoprefixer",
     "css-purge": "purgecss --keyframes --css build/styles.css --content index.html src/js/*.js \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output build/",
-    "css": "npm-run-all css-compile css-purge css-prefix",
+    "css": "npm-run-all css-lint css-compile css-purge css-prefix",
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
