@@ -1,0 +1,9 @@
+.socialmedia {
+  li {
+    &:hover {
+      opacity: 75%;
+      transition: all 300ms ease-in-out;
+      transform: scale(105%);
+    }
+  }
+}

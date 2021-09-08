@@ -1,3 +1,14 @@
+.philosophy {
+  .blockquote-footer {
+    &::before {
+      width: 100%;
+      margin-right: 0.5em;
+      content: "" !important;
+      border-bottom: $height-lines solid $secondary-red;
+    }
+  }
+}
+
 .philosophy-headline {
   grid-column: 2/8;
 }

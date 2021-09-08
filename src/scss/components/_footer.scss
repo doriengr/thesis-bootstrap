@@ -34,7 +34,15 @@
     font-family: $font-family-span;
     font-size: $font-size-xs;
   }
+
   nav {
+    > .grid > li > a {
+      &:hover {
+        color: $dark !important;
+        transition: all 300ms ease-in-out;
+      }
+    }
+
     @media (min-width: $grid-breakpoints-sm) {
       max-width: $spacer * 30;
       text-align: center !important;
