@@ -8,7 +8,7 @@
     position: absolute;
     top: 30%;
     width: 70%;
-    z-index: -1;
+    z-index: $z-index-low;
   }
 
   @media (min-width: $grid-breakpoints-sm) {
@@ -78,15 +78,40 @@
 .hero-description {
   grid-column: 2/8;
 
+  &::before {
+    background-color: $primary;
+    content: '';
+    height: $height-lines;
+    position: absolute;
+    top: $spacer * -1.5;
+    width: $spacer * 6.25;
+  }
+
   @media (min-width: $grid-breakpoints-sm) {
     grid-column: 4/7;
     grid-row: 3/4;
     width: 70%;
+
+    &::before {
+      left: $spacer * -7.5;
+      top: $spacer * 0.25;
+    }
   }
 }
 
 .hero-usp {
   grid-column: 2/3;
+
+  &::before {
+    background-color: $primary;
+    content: '';
+    height: $height-lines;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: $spacer * -1.5;
+    width: 100%;
+  }
 }
 
 .hero-image-large {
@@ -105,20 +130,20 @@
 .hero-image-small {
   grid-column: 3/6;
   grid-row: 2/3;
-  height: 6.25rem;
+  height: $spacer * 6.25;
 
   @media (min-width: $grid-breakpoints-sm) {
     grid-row: 4/5;
-    height: 10rem;
+    height: $spacer * 10;
   }
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-row: 5/6;
-    height: 12.5rem;
+    height: $spacer * 12.5;
   }
 
   @media (min-width: $grid-breakpoints-xl) {
-    height: 18.75rem;
+    height: $spacer * 18.75;
   }
 }
 

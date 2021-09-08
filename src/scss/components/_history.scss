@@ -37,6 +37,16 @@
 
 .history-headline {
   grid-column: 2/8;
+  white-space: nowrap;
+
+  @media (min-width: $grid-breakpoints-sm) {
+    &::before {
+      border-bottom: $height-lines solid $secondary-red;
+      content: '';
+      margin-right: 0.5em;
+      width: 100%;
+    }
+  }
 }
 
 .history-image-large {
