@@ -9,7 +9,7 @@
         let hash = this.getAttribute('href');
         let target = document.querySelector(hash);
         let headerOffset = 0;
-        if(window.matchMedia('(max-width: 1024px)').matches) {
+        if(window.matchMedia('(max-width: 992px)').matches) {
           headerOffset = 75;
         } else {
           headerOffset = 150;
