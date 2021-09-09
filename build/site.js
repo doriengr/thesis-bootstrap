@@ -1,3 +1,3 @@
-import"../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import"/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 !function(){let e=document.querySelectorAll(".js-link"),t=document.querySelector(".navbar-collapse"),n=document.querySelector(".navbar-toggler");!function(){for(let a=0;a<e.length;a++)e[a].addEventListener("click",(()=>{window.matchMedia("(max-width: 992px)").matches&&(t.classList.remove("show"),n.ariaExpanded=!1)}))}()}();
 document.querySelectorAll(".js-link").forEach((e=>{e.onclick=function(e){e.preventDefault();let t=this.getAttribute("href"),o=document.querySelector(t),c=0;c=window.matchMedia("(max-width: 1024px)").matches?75:150;let l=o.offsetTop-c;window.scrollTo({top:l,behavior:"smooth"})}}));
