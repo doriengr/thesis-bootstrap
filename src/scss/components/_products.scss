@@ -60,6 +60,8 @@
 }
 
 .products-list-label {
+  cursor: pointer;
+
   &::after {
     position: absolute;
     top: 40%;
@@ -73,6 +75,8 @@
   }
 
   @media (min-width: $grid-breakpoints-lg) {
+    cursor: text;
+
     &::after {
       position: inherit;
       width: 100%;
@@ -85,12 +89,17 @@
   }
 }
 
-.products-list-label--rotate {
-  &::after {
-    transform: rotate(0deg);
+.collapsed {
+  .products-list-label {
+    &::after {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media (min-width: $grid-breakpoints-lg) {
+    ~ ul {
+      display: block !important;
+    }
   }
 }
 
-.js-products-sublist--hidden {
-  display: none;
-}
