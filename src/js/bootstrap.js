@@ -1,1 +1,1 @@
-import "../../node_modules/bootstrap/js/dist/*";
+import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
