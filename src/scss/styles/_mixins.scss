@@ -1,0 +1,7 @@
+@mixin grid-individual {
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: $spacing-outside 20% $spacing-outside 18% $spacing-outside 32% $spacing-outside $spacing-outside;
+    grid-template-rows: auto;
+  }
+}

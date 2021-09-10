@@ -1,4 +1,6 @@
 .hero {
+  @include grid-individual;
+
   &::after {
     position: absolute;
     top: 30%;

@@ -1,4 +1,6 @@
 .origin {
+  @include grid-individual;
+
   max-height: $spacer * 38;
 
   &::after {

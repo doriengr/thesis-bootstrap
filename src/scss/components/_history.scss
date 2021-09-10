@@ -1,4 +1,6 @@
 .history {
+  @include grid-individual;
+
   &::after {
     position: absolute;
     top: 20%;

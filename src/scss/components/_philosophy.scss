@@ -1,4 +1,6 @@
 .philosophy {
+  @include grid-individual;
+
   .blockquote-footer {
     &::before {
       width: 100%;

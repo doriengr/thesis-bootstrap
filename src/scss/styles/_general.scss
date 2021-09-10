@@ -53,11 +53,3 @@ h4 {
   font-family: $font-family-span !important;
   font-size: $font-size-sm !important;
 }
-
-.grid-individual {
-  @supports (display: grid) {
-    display: grid;
-    grid-template-columns: $spacing-outside 20% $spacing-outside 18% $spacing-outside 32% $spacing-outside $spacing-outside;
-    grid-template-rows: auto;
-  }
-}
