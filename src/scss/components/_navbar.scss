@@ -31,7 +31,7 @@
 
   > svg {
     @media (min-width: $grid-breakpoints-lg) {
-      transform: scale(160%);
+      transform: scale(1.6);
     }
   }
 }
@@ -41,7 +41,7 @@
   &:hover {
     opacity: 75%;
     transition: all 300ms ease-in-out;
-    transform: scale(105%);
+    transform: scale(1.05);
   }
 }
 
