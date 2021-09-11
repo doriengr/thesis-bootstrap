@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: ['/src/js/bootstrap.js'],
+  entry: ['/src/js/bootstrap.js', '/src/js/close-menu.js', '/src/js/navigation-scroll.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'site.js',
