@@ -9,15 +9,16 @@
     "url": "git+https://github.com/doriengr/thesis-bootstrap"
   },
   "scripts": {
-    "build": "npm-run-all css-lint css-compile css-purge css-prefix && webpack",
+    "build": "npm-run-all css-lint css-compile css-prefix",
     "production": "npm-run-all css-compile css-purge css-prefix && webpack",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --precision 6 src/scss -o build/",
+    "css-compile": "node-sass --include-path node_modules --precision 6 src/scss -o build/",
     "css-lint": "stylelint src/scss/",
     "css-prefix": "postcss --replace build/styles.css --use autoprefixer",
     "css-purge": "purgecss --keyframes --css build/styles.css --content index.html src/js/*.js \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output build/",
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
-    "watch": "nodemon -e html,scss -x \"npm run css\""
+    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "webpack": "webpack"
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
