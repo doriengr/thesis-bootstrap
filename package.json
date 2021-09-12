@@ -17,7 +17,7 @@
     "css-purge": "purgecss --keyframes --css build/styles.css --content index.html src/js/*.js \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output build/",
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
-    "watch": "nodemon -e html,scss -x \"npm run css\""
+    "watch": "nodemon -e html,scss -x \"npm run build\""
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
