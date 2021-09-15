@@ -1,5 +1,6 @@
 $enable-rounded: false;
 $enable-cssgrid: true;
+$enable-rfs: false;
 
 $extra-light: #faf9f7;
 $light: #e7e4db;
@@ -43,6 +44,11 @@ $font-size-2xl: $font-size-base * 1.875;
 $font-size-3xl: $font-size-base * 2.188;
 $font-size-4xl: $font-size-base * 3.125;
 $font-size-5xl: $font-size-base * 4.375;
+
+$h1-font-size: $font-size-2xl;
+$h2-font-size: $font-size-2xl;
+$h3-font-size: $font-size-xl;
+$h3-font-size: $font-size-sm;
 
 $spacing-outside: 6%;
 $spacer: 1rem;
