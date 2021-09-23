@@ -33,5 +33,29 @@ $utilities: map-merge(
         ),
       ),
     ),
+    "grid-row-start": (
+      property: grid-row-start,
+      class: g-row-s,
+      responsive: true,
+      values: (
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5
+      )
+    ),
+    "grid-row-end": (
+      property: grid-row-end,
+      class: g-row-e,
+      responsive: true,
+      values: (
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        6: 6,
+      )
+    ),
   )
 );

@@ -53,7 +53,6 @@
 
 .history-image-large {
   grid-column: 1/5;
-  grid-row: 2/3;
   max-height: $spacer * 24;
 
   @media (min-width: $grid-breakpoints-lg) {
@@ -72,12 +71,10 @@
 
 .history-image-small {
   grid-column: 6/9;
-  grid-row: 2/3;
   max-height: $spacer * 24;
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 3/5;
-    grid-row: 3/4;
     height: 100% !important;
     max-height: $spacer * 18;
   }
@@ -93,7 +90,6 @@
   @media (min-width: $grid-breakpoints-lg) {
     margin-left: 15%;
     grid-column: 4/8;
-    grid-row: 2/3;
   }
 
   @media (min-width: $grid-breakpoints-xl) {
@@ -106,6 +102,5 @@
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 6/8;
-    grid-row: 3/4;
   }
 }

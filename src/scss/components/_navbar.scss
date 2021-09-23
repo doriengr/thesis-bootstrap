@@ -1,16 +1,4 @@
-.navbar {
-  ul {
-    @media (min-width: $grid-breakpoints-lg) {
-      grid-row: 1/2;
-    }
-  }
-}
-
 .navbar-brand {
-  @media (min-width: $grid-breakpoints-lg) {
-    grid-row: 1/2;
-  }
-
   > p {
     font-weight: 500;
     letter-spacing: $letter-spacing-wide;
@@ -80,7 +68,6 @@
     position: static !important;
     width: auto !important;
     height: 100% !important;
-    grid-row: 1/2;
   }
 }
 
