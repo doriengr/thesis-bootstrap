@@ -15,5 +15,23 @@ $utilities: map-merge(
         span: $font-family-span,
       )
     ),
+    "padding-x": map-merge(
+      map-get($utilities, "padding-x"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "padding-x"), "values"),
+          (6p: 6%, 12p: 12%),
+        ),
+      ),
+    ),
+    "margin-x": map-merge(
+      map-get($utilities, "margin-x"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "margin-x"), "values"),
+          (6p: 6%, 12p: 12%),
+        ),
+      ),
+    ),
   )
 );

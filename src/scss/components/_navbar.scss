@@ -1,11 +1,4 @@
 .navbar {
-  > div {
-    margin: 0 $spacing-outside;
-
-    @media (min-width: $grid-breakpoints-xxl) {
-      margin: 0;
-    }
-  }
   ul {
     @media (min-width: $grid-breakpoints-lg) {
       grid-row: 1/2;

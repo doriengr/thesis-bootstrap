@@ -22,9 +22,6 @@
   }
 
   > div {
-    padding-right: $spacing-outside;
-    padding-left: $spacing-outside;
-
     @media (min-width: $grid-breakpoints-lg) {
       width: 85%;
     }
