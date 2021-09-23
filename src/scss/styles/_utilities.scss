@@ -63,5 +63,33 @@ $utilities: map-merge(
       responsive: true,
       values: (flex-start, flex-end, end)
     ),
+    "max-width": (
+      property: max-width,
+      class: mw,
+      responsive: true,
+      values: (
+        28: $spacer * 28,
+        30: $spacer * 30,
+        40: $spacer * 40,
+        45: $spacer * 45,
+        max: max-content,
+        none: none,
+      )
+    ),
+    "max-height": (
+      property: max-height,
+      class: mh,
+      responsive: true,
+      values: (
+        4: $spacer * 4,
+        15: $spacer * 15,
+        18: $spacer * 18,
+        24: $spacer * 24,
+        28: $spacer * 28,
+        38: $spacer * 38,
+        45: $spacer * 45,
+        max: max-content,
+      )
+    ),
   )
 );

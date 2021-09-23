@@ -1,6 +1,4 @@
 .products {
-  padding: 0 $spacing-outside;
-
   @media (min-width: $grid-breakpoints-lg) {
     &::after {
       position: absolute;
@@ -12,18 +10,6 @@
       height: 20%;
       content: "";
       background-color: $light;
-    }
-  }
-
-  picture {
-    max-height: $spacer * 15;
-
-    @media (min-width: $grid-breakpoints-sm) {
-      max-height: $spacer * 24;
-    }
-
-    @media (min-width: $grid-breakpoints-xl) {
-      max-height: $spacer * 28;
     }
   }
 

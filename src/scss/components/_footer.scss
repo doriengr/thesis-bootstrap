@@ -29,12 +29,10 @@
 
   nav {
     @media (min-width: $grid-breakpoints-sm) {
-      max-width: $spacer * 30;
       text-align: center !important;
     }
 
     @media (min-width: $grid-breakpoints-lg) {
-      max-width: none;
       text-align: center !important;
     }
   }

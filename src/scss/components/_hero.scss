@@ -34,12 +34,10 @@
 }
 
 .hero-headline {
-  max-width: 28rem;
   font-weight: $font-weight-normal;
   grid-column: 4/8;
 
   @media (min-width: $grid-breakpoints-lg) {
-    max-width: 40rem;
     grid-column: 4/7;
   }
 }

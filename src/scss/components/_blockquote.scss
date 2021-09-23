@@ -10,17 +10,6 @@
   }
 }
 
-.blockquote-large {
-  > p {
-    max-width: $spacer * 45;
-  }
-}
-
 .blockquote-footer {
-  max-width: $spacer * 30;
   white-space: nowrap;
-}
-
-.blockquote-footer-small {
-  font-size: $font-size-base;
 }
