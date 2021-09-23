@@ -5,5 +5,15 @@ $utilities: map-merge(
       map-get($utilities, "font-size"),
       ( responsive: true ),
     ),
+    "font-family": (
+      property: font-family,
+      class: font,
+      responsive: false,
+      values: (
+        base: $font-family-base,
+        headline: $font-family-headlines,
+        span: $font-family-span,
+      )
+    ),
   )
 );

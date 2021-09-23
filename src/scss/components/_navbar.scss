@@ -19,7 +19,6 @@
   }
 
   > p {
-    font-family: $font-family-span;
     font-weight: 500;
     letter-spacing: $letter-spacing-wide;
   }
@@ -93,8 +92,6 @@
 }
 
 .navbar-nav {
-  font-family: $font-family-span;
-
   @media (min-width: $grid-breakpoints-lg) {
     width: auto !important;
     height: auto !important;

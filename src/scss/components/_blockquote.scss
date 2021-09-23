@@ -6,7 +6,6 @@
   }
 
   > p {
-    font-family: $font-family-headlines;
     font-weight: $headings-font-weight;
   }
 }
@@ -21,7 +20,6 @@
 
 .blockquote-footer {
   max-width: $spacer * 30;
-  font-family: $font-family-span;
   white-space: nowrap;
 }
 

@@ -30,10 +30,6 @@
     }
   }
 
-  .js-link {
-    font-family: $font-family-span;
-  }
-
   nav {
     @media (min-width: $grid-breakpoints-sm) {
       max-width: $spacer * 30;
