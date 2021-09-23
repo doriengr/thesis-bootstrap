@@ -40,24 +40,16 @@
 
   @media (min-width: $grid-breakpoints-sm) {
     grid-row: 2/3;
-    font-size: $font-size-3xl;
-  }
-
-  @media (min-width: $grid-breakpoints-md) {
-    grid-row: 2/3;
-    font-size: $font-size-4xl;
   }
 
   @media (min-width: $grid-breakpoints-lg) {
     max-width: 40rem;
-    font-size: $font-size-5xl;
     grid-column: 4/7;
   }
 }
 
 .hero-date {
   font-family: $font-family-span;
-  font-size: $font-size-xs;
   grid-column: 7/8;
   grid-row: 2/3;
   justify-self: end;

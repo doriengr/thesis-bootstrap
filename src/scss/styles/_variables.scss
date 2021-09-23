@@ -45,6 +45,19 @@ $font-size-3xl: $font-size-base * 2.188;
 $font-size-4xl: $font-size-base * 3.125;
 $font-size-5xl: $font-size-base * 4.375;
 
+$font-sizes: (
+  1: $font-size-5xl,
+  2: $font-size-4xl,
+  3: $font-size-3xl,
+  4: $font-size-2xl,
+  5: $font-size-xl,
+  6: $font-size-lg,
+  7: $font-size-sm,
+  8: $font-size-xs,
+  9: $font-size-2xs,
+  10: $font-size-base
+);
+
 $h1-font-size: $font-size-2xl;
 $h2-font-size: $font-size-2xl;
 $h3-font-size: $font-size-xl;

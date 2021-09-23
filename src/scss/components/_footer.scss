@@ -32,7 +32,6 @@
 
   .js-link {
     font-family: $font-family-span;
-    font-size: $font-size-xs;
   }
 
   nav {
@@ -52,10 +51,6 @@
   > svg {
     width: $spacer * 7.5;
   }
-}
-
-.footer-description {
-  font-size: $font-size-sm;
 }
 
 .footer-nav {

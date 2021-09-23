@@ -20,13 +20,8 @@
 
   > p {
     font-family: $font-family-span;
-    font-size: $font-size-2xs;
     font-weight: 500;
     letter-spacing: $letter-spacing-wide;
-
-    @media (min-width: $grid-breakpoints-lg) {
-      font-size: $font-size-xs;
-    }
   }
 
   > svg {
@@ -109,7 +104,6 @@
 
 .nav-link {
   @media (min-width: $grid-breakpoints-lg) {
-    font-size: $font-size-2xs;
     color: $secondary-green !important;
 
     &:hover {

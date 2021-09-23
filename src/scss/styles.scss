@@ -4,6 +4,13 @@
   "./styles/mixins",
   "./styles/general";
 
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/mixins";
+
+@import "./styles/utilities";
+
 @import "bootstrap/scss/bootstrap";
 
 @import "./components/blockquote",
