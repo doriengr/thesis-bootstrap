@@ -57,5 +57,11 @@ $utilities: map-merge(
         6: 6,
       )
     ),
+    "justify-self": (
+      property: justify-self,
+      class: justify-self,
+      responsive: true,
+      values: (flex-start, flex-end, end)
+    ),
   )
 );

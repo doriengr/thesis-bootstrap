@@ -46,14 +46,12 @@
 
 .hero-date {
   grid-column: 7/8;
-  justify-self: end;
   white-space: nowrap;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
 
   @media (min-width: $grid-breakpoints-lg) {
     grid-column: 4/5;
-    justify-self: flex-start;
     transform: rotate(0);
     writing-mode: inherit;
   }
