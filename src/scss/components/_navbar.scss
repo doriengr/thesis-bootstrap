@@ -1,4 +1,16 @@
+.navbar {
+  ul {
+    @media (min-width: $grid-breakpoints-lg) {
+      grid-row: 1/2;
+    }
+  }
+}
+
 .navbar-brand {
+  @media (min-width: $grid-breakpoints-lg) {
+    grid-row: 1/2;
+  }
+
   > p {
     font-weight: 500;
     letter-spacing: $letter-spacing-wide;
@@ -58,6 +70,12 @@
   > div:last-of-type {
     width: $spacer * 1.5;
     transform: rotate(-45deg);
+  }
+}
+
+.navbar-collapse {
+  @media (min-width: $grid-breakpoints-lg) {
+    grid-row: 1/2;
   }
 }
 
