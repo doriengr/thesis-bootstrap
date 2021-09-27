@@ -9,23 +9,26 @@
 ## Verwendete Abhängigkeiten für Code
 
 - CSS-Framework: bootstrap
-- Abhängigkeiten für tailwindcss: autopre@popperjs/core, bootstrap-icon
+- Abhängigkeiten für bootstrap: bootstrap, webpack, webpack-cli, babel-loader
+- Löschen von nicht genutzten Dateien mit purgecss
+- Stylelint für Syntax- und Strukturüberprüfung
 
 ## Verwendete Abhängigkeiten für Funktionen
 
-- Autoprefixer: Automatisches Hinzufügen von Herstellerpräfixen
-- Node-Sass: Ausführen von Sass als Präprozessor
-- Nodemon: Automatisches starten der Applikation 
-- Npm Run All: Auführen mehrerer Skripte gleichzeitig
-- Serve: Starten eines lokalen Servers
-- Postcss: Postprozessor
-- Postcss-cli: Ausführen von PostCSS von der Kommandozeile aus
-- PurgeCSS: Löschen von nicht verwendeten Code
-- Stylelint: Linting
-- Stylelint für Bootstrap: Linting-Regeln für Bootstrap
-
-
-
+- bootstrap
+- node-sass
+- purgecss
+- postcss
+- postcss-cli
+- autoprefixer
+- webpack
+- webpack-cli
+- babel-loader
+- nodemon
+- npm-run-all
+- serve
+- stylelint
+- stylelint-config-twbs-bootstrap
 
 -- Umsetzung findet im Rahmen der Thesis von Dorien Grönwald statt --
 
